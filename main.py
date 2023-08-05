@@ -172,7 +172,7 @@ if __name__ == "__main__":
 
     #приклад пошуку контакту за фрагментом номеру телефону
     print([ab.search_by_number('34')[i].name.name for i in range(len(ab.search_by_number('34')))])
-    # приклад пошуку контакту за фрагментом ім'я
+    # приклад пошуку контакту за фрагментом імені
     print([ab.search_by_name('iLl')[i].name.name for i in range(len(ab.search_by_name('iLl')))])
 
     assert isinstance(ab['Bill'], Record)
